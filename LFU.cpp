@@ -21,7 +21,7 @@ typedef struct QNode {
 
 
 typedef struct Queue {
-    unsigned count; // Number of filled frames
+    unsigned count; // How much of the cache is filled
     unsigned cacheSize; // total number of frames
     QNode *front, *rear;
 } Queue;
